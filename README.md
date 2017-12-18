@@ -8,7 +8,10 @@ Starting with Chrome v50, the Geolocation API was removed from unsecured origins
 
 That means your website needs SSL Certification in order to access location based informations. 
 
- This repository includes ngrok executable, which is a convenient command line tool that creates a tunnel for localhost to establish both http and https connections.
- 
+This repository includes ngrok executable, which is a convenient command line tool that creates a tunnel for localhost to establish both http and https connections.
+
+Commands to run from local folder: 
+<pre>ionic serve</pre>
+<pre>ngrok http 8100</pre>
  
  @Sergiu Turus
