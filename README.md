@@ -6,12 +6,12 @@ Ionic is a free and open source mobile SDK for developing native and progressive
 
 Starting with Chrome v50, the Geolocation API was removed from unsecured origins. <a href="https://developers.google.com/web/updates/2016/04/geolocation-on-secure-contexts-only">Source</a>
 
-That means your website needs SSL Certification in order to access location based informations. 
+That means your website needs SSL Certification in order to access location based informations.
 
 This repository includes ngrok executable, which is a convenient command line tool that creates a tunnel for localhost to establish both http and https connections.
 
-Commands to run from local folder: 
+Commands to run from local folder:
 <pre>ionic serve</pre>
-<pre>ngrok http 8100</pre>
- 
+<pre>.\ngrok http 8100</pre>
+
  @Sergiu Turus
